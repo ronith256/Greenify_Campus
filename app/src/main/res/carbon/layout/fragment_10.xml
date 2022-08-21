@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_wPink">
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ambition"
+        android:text="@string/p10"
+        android:textColor="@color/text_grey"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/bg_pink"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="35dp">
+
+            <TextView
+                android:id="@+id/questionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ambition"
+                android:text="@string/qs10"
+                android:textColor="@color/text_grey"
+                android:textSize="70sp"
+                app:layout_constraintBottom_toTopOf="@+id/q1imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.604" />
+
+            <TextView
+                android:id="@+id/q1textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ambition"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:text="@string/q10"
+                android:textAlignment="center"
+                android:textColor="@color/text_grey"
+                android:textSize="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1imageView"
+                app:layout_constraintVertical_bias="0.046" />
+
+            <ImageView
+                android:id="@+id/q1imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_tree"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.53"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.287" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/q10YesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/ambition"
+                android:text="@string/yes"
+                android:elevation="10dp"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.200"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1textView"
+                app:layout_constraintVertical_bias="0.26" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/q10ResultButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:elevation="10dp"
+                android:visibility="invisible"
+                android:fontFamily="@font/ambition"
+                android:text="@string/result"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1textView"
+                app:layout_constraintVertical_bias="0.844" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/q10NoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/ambition"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/no"
+                android:textAllCaps="false"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.80"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1textView"
+                app:layout_constraintVertical_bias="0.26" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

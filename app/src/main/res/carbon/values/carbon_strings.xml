@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carbon_start">Let\'s find your carbon footprint</string>
+    <string name="start_button">Let\'s Go</string>
+
+<!--    Progress -->
+    <string name="p1">Progress: 1/10</string>
+    <string name="p2">Progress: 2/10</string>
+    <string name="p3">Progress: 3/10</string>
+    <string name="p4">Progress: 4/10</string>
+    <string name="p5">Progress: 5/10</string>
+    <string name="p6">Progress: 6/10</string>
+    <string name="p7">Progress: 7/10</string>
+    <string name="p8">Progress: 8/10</string>
+    <string name="p9">Progress: 9/10</string>
+    <string name="p10">Progress: 10/10</string>
+
+
+<!--    Questions   -->
+    <string name="qs">Question 1</string>
+    <string name="q1">Do you cycle/walk or take bus to class?</string>
+    <string name="q1bus">Bus</string>
+    <string name="q1walk">Cycle/Walk</string>
+
+    <string name="qs2">Question 2</string>
+    <string name="q2">Are you a hosteler?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="qs2a">Question 2a</string>
+    <string name="q2a">How many hours do you spend in the hostel?</string>
+    <string name="editTextHours">Enter a value in hours</string>
+
+    <string name="qs2ads">How far is your home from College? Do you ride or walk to college?</string>
+    <string name="inKm">Enter in KM</string>
+
+    <string name="qs3">Question 3</string>
+    <string name="q3">Do you turn off the fan/lights when not in use?</string>
+
+    <string name="qs4">Question 4</string>
+    <string name="q4">Do you play any AAA titles on your laptop?</string>
+
+    <string name="qs5">Question 5</string>
+    <string name="q5">How often do you eat from the canteen per week?</string>
+    <string name="q5btn0">Never</string>
+    <string name="q5btn1">Once/Twice</string>
+    <string name="q5btn2">More than twice</string>
+
+    <string name="qs6">Question 6</string>
+    <string name="q6">Are you a vegan/vegetarian?</string>
+
+    <string name="qs7">Question 7</string>
+    <string name="q7">How many trashcans do you fill per week?</string>
+
+    <string name="qs8">Question 8</string>
+    <string name="q8">How many new gadgets have you purchased last year?</string>
+
+    <string name="qs9">Question 9</string>
+    <string name="q9">Have you taken a flight this/last year?</string>
+
+
+    <string name="qs10">Question 10</string>
+    <string name="q10">Did you plant any tree last year?</string>
+
+    <string name="qs10a">Question 10a</string>
+    <string name="q10a">How many trees did you plant last year?</string>
+
+    <string name="your_emission">Your carbon emission is </string>
+    <string name="your_average">You contribute carbon </string>
+    <string name="a3_text">%.2f ton</string>
+    <string name="a4_text">%.2fx</string>
+
+<!--    Boolean values of Buttons -->
+
+<!--    Image Descriptions & Hints -->
+    <string name="foot_hint">Art of foot</string>
+
+
+
+</resources>

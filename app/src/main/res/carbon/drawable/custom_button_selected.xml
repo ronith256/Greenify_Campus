@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:tint="@color/text_pink"
+    android:tintMode="add"
+    android:thickness="5dp">
+    <!--    <solid android:color="@color/text_pink"/>-->
+    <corners android:radius="13dp" />
+    <stroke android:width="4dp" android:color="@color/white" />
+</shape>

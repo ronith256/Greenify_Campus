@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/bus_icon.xml" value="0.32" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/custom_button_selected.xml" value="0.1765" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/custom_edit.xml" value="0.2745" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/custom_start_button.xml" value="0.203" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_bike.xml" value="0.32" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_bulb.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_bulb1.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_canteen.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_csgo.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_education__47_.xml" value="0.32" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_fan.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_feet_1299926.xml" value="0.121" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_flight.xml" value="0.2795" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_gta.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_hostel.xml" value="0.2745" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_house.xml" value="0.3225" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_laptop_and_phone.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_laptop_and_phone__1__adobe_express.xml" value="0.2795" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_trash.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_tree.xml" value="0.2795" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/drawable/ic_vegan.xml" value="0.2565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/activity_carbon_main.xml" value="0.264" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/activity_first_question.xml" value="0.264" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/activity_main.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/activity_qeustions.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/activity_screen_slide.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fagment_5.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fargment_9.xml" value="0.21776315789473685" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_1.xml" value="0.152" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_10.xml" value="0.21776315789473685" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_10a.xml" value="0.21776315789473685" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_2.xml" value="0.264" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_2a.xml" value="0.264" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_2aDayScholar.xml" value="0.21776315789473685" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_3.xml" value="0.264" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_4.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_5.xml" value="0.176" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_6.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_7.xml" value="0.176" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_8.xml" value="0.176" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_9.xml" value="0.17520491803278687" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/fragment_screen_slide.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/item_question.xml" value="0.2" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/carbon/layout/result_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2745" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2745" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/font/ambition.xml" value="0.375" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/iamro/AndroidStudioProjects/GreenifyCampus/app/src/main/res/layout/fragment_question_slider.xml" value="0.2259963768115942" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

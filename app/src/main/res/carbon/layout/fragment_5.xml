@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_wPink">
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ambition"
+        android:text="@string/p5"
+        android:textColor="@color/text_grey"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/bg_pink"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="35dp">
+
+            <TextView
+                android:id="@+id/questionNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ambition"
+                android:text="@string/qs5"
+                android:textColor="@color/text_grey"
+                android:textSize="70sp"
+                app:layout_constraintBottom_toTopOf="@+id/q1imageView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.541" />
+
+            <TextView
+                android:id="@+id/q1textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ambition"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:text="@string/q5"
+                android:textAlignment="center"
+                android:textColor="@color/text_grey"
+                android:textSize="50sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.632"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1imageView"
+                app:layout_constraintVertical_bias="0.122" />
+
+            <ImageView
+                android:id="@+id/q1imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_canteen"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.287" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/q5NeverButton"
+                android:layout_width="75dp"
+                android:layout_height="42dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/ambition"
+                android:text="@string/q5btn0"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/q5OnceButton"
+                app:layout_constraintHorizontal_bias="0.666"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1textView"
+                app:layout_constraintVertical_bias="0.26" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/q5OnceButton"
+                android:layout_width="95dp"
+                android:layout_height="42dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/ambition"
+                android:text="@string/q5btn1"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/q1textView"
+                app:layout_constraintVertical_bias="0.26" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/q5MoreButton"
+                android:layout_width="169dp"
+                android:layout_height="42dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/ambition"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="@string/q5btn2"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toEndOf="@+id/q5OnceButton"
+                app:layout_constraintTop_toBottomOf="@+id/q1textView"
+                app:layout_constraintVertical_bias="0.26" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
