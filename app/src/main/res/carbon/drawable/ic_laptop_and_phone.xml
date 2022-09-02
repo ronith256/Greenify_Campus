@@ -10,7 +10,7 @@
       android:fillType="nonZero"/>
   <path
       android:pathData="M664.8,966.83L231.22,966.83c-30.2,-0 -54.76,-24.56 -54.76,-54.76l0,-835.67c0,-30.2 24.56,-54.76 54.76,-54.76L1459.08,21.64c30.2,-0 54.77,24.56 54.77,54.76L1513.85,912.07c0,30.2 -24.57,54.76 -54.77,54.76L1025.52,966.83 664.8,966.83"
-      android:fillColor="@color/bg_pink"
+      android:fillColor="@color/bg_light"
       android:strokeColor="#00000000"
       android:fillType="evenOdd"/>
   <path
@@ -20,7 +20,7 @@
       android:fillType="nonZero"/>
   <path
       android:pathData="M65.69,1001.8L1624.62,1001.8l32.05,-69.93L33.63,931.87l32.05,69.93"
-      android:fillColor="@color/bg_pink"
+      android:fillColor="@color/bg_light"
       android:strokeColor="#00000000"
       android:fillType="nonZero"/>
   <path
@@ -40,7 +40,7 @@
       android:fillType="nonZero"/>
   <path
       android:pathData="M1712.52,347.68L1712.52,971.16c0,16.85 -13.8,30.64 -30.65,30.64l-316.64,-0c-16.85,-0 -30.65,-13.79 -30.65,-30.64L1334.57,347.68c0,-16.87 13.8,-30.65 30.65,-30.65l316.64,-0c16.85,-0 30.65,13.79 30.65,30.65"
-      android:fillColor="@color/bg_pink"
+      android:fillColor="@color/bg_light"
       android:strokeColor="#00000000"
       android:fillType="evenOdd"/>
   <path
