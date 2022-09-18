@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/garbage_can_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="390dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="770dp"
+    android:background="@color/bg_light"
+    android:elevation="15dp"
+    app:cardCornerRadius="15dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_light">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/garbageCanAnim"
+            android:layout_width="71dp"
+            android:layout_height="71dp"
+            android:layout_margin="8dp"
+
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:lottie_autoPlay="false"
+            app:lottie_fileName="trash.json"
+            app:lottie_loop="false"
+            app:lottie_speed="1.25" />
+
+        <TextView
+            android:id="@+id/nameOfCan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#9cd3db"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toEndOf="@+id/garbageCanAnim"
+            app:layout_constraintTop_toTopOf="@+id/garbageCanAnim"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/garbagePercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toEndOf="@+id/garbageCanAnim"
+            app:layout_constraintTop_toBottomOf="@+id/nameOfCan"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/garbageCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.381"
+            app:layout_constraintStart_toEndOf="@+id/garbagePercentage"
+            app:layout_constraintTop_toBottomOf="@+id/nameOfCan"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

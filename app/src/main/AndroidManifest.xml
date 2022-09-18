@@ -3,6 +3,10 @@
     package="com.moon.greenify">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"  />
 
     <application
         android:allowBackup="true"
@@ -12,8 +16,11 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.GreenifyCampus">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
         <activity
-            android:name=".canteen.FoodLoadingView"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +31,16 @@
 
         <activity android:name=".carbon.QuestionView" android:exported="true"/>
         <activity android:name=".espM.ESPView" android:exported="true"/>
+        <activity android:name=".treesAI.TreeMain" android:exported="true"/>
+        <activity android:name=".birdsAI.BirdMain" android:exported="true"/>
+        <activity android:name=".espM.WaterLoadingScreen" android:exported="true"/>
+        <activity android:name=".canteen.FoodLoadingView" android:exported="true"/>
+        <activity android:name=".InternetErrorActivity" android:exported="true"/>
 <!--        <activity android:name=".canteen.FoodLoadingView" android:exported="true"/>-->
         <activity android:name=".canteen.CanteensView" android:exported="true"/>
         <activity android:name=".canteen.FoodsView" android:exported="true"/>
         <activity android:name=".canteen.PaymentPage" android:exported="true"/>
+
     </application>
 
 </manifest>

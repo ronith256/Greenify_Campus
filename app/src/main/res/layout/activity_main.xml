@@ -4,15 +4,157 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_light"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_add_button"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/text_grey"
+        android:elevation="20dp"
+        android:hint="@string/searchBar"
+        android:padding="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:textAlignment="textStart"
+        android:textColorHint="@color/text_grey"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/materialCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_edit_text"
+        app:layout_constraintVertical_bias="0.5">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        style="@style/CustomCardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@color/bg_light"
+        android:elevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/carbon_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/bg_light"
+                android:fontFamily="@font/ambition"
+                android:padding="20dp"
+                android:text="Carbon Footprint"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.117" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/water_garbage_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/bg_light"
+                android:fontFamily="@font/ambition"
+                android:padding="20dp"
+                android:text="Water/Garbage "
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="@+id/carbon_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toEndOf="@+id/carbon_button"
+                app:layout_constraintTop_toTopOf="@+id/carbon_button"
+                app:layout_constraintVertical_bias="0.116" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/trees_ai_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/bg_light"
+                android:fontFamily="@font/ambition"
+                android:padding="20dp"
+                android:text="Tree Identifier"
+                android:textSize="23sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/carbon_button"
+                app:layout_constraintTop_toBottomOf="@+id/carbon_button"
+                app:layout_constraintVertical_bias="0.2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/bird_ai_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/bg_light"
+                android:fontFamily="@font/ambition"
+                android:padding="20dp"
+                android:text="Bird Identifier"
+                android:textSize="23sp"
+                app:layout_constraintBottom_toBottomOf="@+id/trees_ai_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.75"
+                app:layout_constraintStart_toEndOf="@+id/trees_ai_button"
+                app:layout_constraintTop_toTopOf="@+id/trees_ai_button"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/canteen_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_button"
+                android:backgroundTint="@color/bg_light"
+                android:fontFamily="@font/ambition"
+                android:padding="20dp"
+                android:text="Canteen Access"
+                android:textSize="23sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/trees_ai_button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/trees_ai_button"
+                app:layout_constraintTop_toBottomOf="@+id/trees_ai_button"
+                app:layout_constraintVertical_bias="0.3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

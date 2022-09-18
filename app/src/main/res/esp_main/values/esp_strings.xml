@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex1">Hostel Water Tank</string>
+    <string name="ex2">Available Water</string>
+    <string name="ex3">Capacity</string>
+</resources>

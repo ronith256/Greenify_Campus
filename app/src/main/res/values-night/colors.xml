@@ -8,14 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-<!--    Stuff that I added -->
-    <color name="no_internet">#FF9DA7</color>
-    <color name="bg_light">#FFEBED</color>
+    <!--    Stuff that I added -->
+    <color name="no_internet">#3C3B3B</color>
+    <color name="bg_light">#3C3B3B</color>
     <color name="food_view">#595858</color>
-    <color name="bg_dark">#FFF3F4</color>
-    <color name="water_tank">#FFFFFF</color>
-    <color name="text_pink">#FF9DA7</color>
-    <color name="text_grey">#756c6d</color>
-    <color name="text_gry">#8F8F8F</color>
-    <color name="add_button_color">#FFF2F3</color>
+    <color name="water_tank">#323131</color>
+    <color name="bg_dark">#232222</color>
+    <color name="text_pink">#87B8B7</color>
+    <color name="text_grey">#8F8F8F</color>
+    <color name="text_gry">#C8C8C8</color>
+    <color name="add_button_color">#3C3B3B</color>
 </resources>
