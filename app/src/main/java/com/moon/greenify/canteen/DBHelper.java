@@ -24,7 +24,7 @@ public class DBHelper {
 
      public String getData(String tableName){
         try{
-          URL url = new URL("http://192.168.99.178:80/espDemo/getCanteens.php");
+          URL url = new URL("http://192.168.100.239:80/espDemo/getCanteens.php");
             URLConnection con = url.openConnection();
             HttpURLConnection http = (HttpURLConnection)con;
             http.setRequestMethod("POST"); // PUT is another valid option
